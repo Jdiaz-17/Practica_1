@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.titulosh2 {
+    width: 45%;
+    margin: auto;
+    padding: 3px;
+    border-bottom: 3px solid black;
+}
+
+.contenh {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.navegacion a:hover {
+    color: #f78a08;
+}
+
+.sectimg img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contmain {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.contimgmain img {
+    width: 100%;
+}
+
+.contimgmain {
+    width: 70px;
+    margin: auto;
+}
+
+.artimain {
+    width: 25%;
+}
+
+.textmain {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contblog {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.artblog {
+   width: 25%;
+   border: 1px solid black; 
+   height: 550px;
+}
+
+.artblog img {
+    width: 100%;
+}
+
+.artblog span {
+    color: #f78a08;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.textblog {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textblog a{
+    text-align: center;
+    text-decoration: none;
+    background: #f78a08;
+    padding: 12px 167px;
+    font-size: 15px;
+    color: white;
+}
+
+.sectrecom {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contrecom {
+    width: 50%;
+    margin: auto;
+}
+
+.contrecom p {
+    font-style: italic;
+}
+
+.contrecom .spancont {
+    color: #f78a08;
+}
+
+.pie {
+    border-top: solid 3px #f78a08;
+    padding: 20px;
+}
+
+.contpie {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nosotroscontmain {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.nosotrosartimain {
+    width: 50%;
+    padding: 20px;
+}
+
+.nosotrosartimain h3 {
+    font-size: 25px;
+}
+
+.nosotrosimgmain {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.nosotrosimgmain img {
+    width: 200px;
+}
+
+.equipo {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.contequipoimg img {
+    width: 100%;
+}
+
+.contequipoimg {
+    width: 300px;
+    margin: auto;
+}
+
+.contequipo {
+    width: 25%;
+}
+
+.equiponombre {
+    text-align: center;
+    line-height: 0;
+}
+
+.equiponombre span {
+    color: #f78a08;
+    font-style: italic;
+}
+
+.producto1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.producto2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.producto3 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;  
+    padding-bottom: 100px;
+}
+
+.contproductoimg img {
+    width: 100%;
+}
+
+.contproductoimg {
+    width: 300px;
+    margin: auto;
+}
+
+.contproducto {
+    width: 25%;
+}
+
+.productonombre {
+    text-align: justify;
+    line-height: 0;
+    padding-left: 17px;
+}
+
+.productonombre span {
+    color: #f78a08;
+    font-style: italic;
+}
+
+.vermas {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.vermasnombre span {
+    color: #f78a08;
+    font-style: italic;
+}
+
+.copyright {
+    font-style: italic;
+}
+
+.copyright .span1 {
+    color: #f78a08;
+}
+
+.copyright .span2 {
+    color: #0EB6EE;
+}
+
+.copyright .span3 {
+    color: #1FAB0E;
+}
+
+.formulario {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.datos {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.datosinput {
+    width: 30%;
+    padding: 10px;
+}
+
+.mensaje {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.mensajeinput {
+    width: 88%;
+    padding: 60px;
+}
